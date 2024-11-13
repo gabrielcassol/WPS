@@ -1,0 +1,26 @@
+GRIB1| Level| From |  To  | metgrid  |  metgrid | metgrid                                  |GRIB2|GRIB2|GRIB2|GRIB2|
+Param| Type |Level1|Level2| Name     |  Units   | Description                              |Discp|Catgy|Param|Level|
+-----+------+------+------+----------+----------+------------------------------------------+-----------------------+
+ 156 | 100  |   *  |      | HGT      | m        | Height                                   |  0  |  3  |  5  | 100 |
+ 130 | 100  |   *  |      | TT       | K        | Temperature                              |  0  |  0  |  0  | 100 |
+ 131 | 100  |   *  |      | UU       | m s-1    | U                                        |  0  |  2  |  2  | 100 |
+ 132 | 100  |   *  |      | VV       | m s-1    | V                                        |  0  |  2  |  3  | 100 |
+ 157 | 100  |   *  |      | RH       | %        | Relative Humidity                        |  0  |  1  |  1  | 100 |
+ 165 | 105  |  10  |      | UU       | m s-1    | U                 at 10 m                |  0  |  2  |  2  | 103 |
+ 166 | 105  |  10  |      | VV       | m s-1    | V                 at 10 m                |  0  |  2  |  3  | 103 |
+ 167 | 105  |   2  |      | TT       | K        | Temperature       at 2 m                 |  0  |  0  |  0  | 103 |
+ 168 | 105  |   2  |      | DEWPT    | K        | Dewpoint          at 2 m                 |  0  |  0  |  6  | 103 |
+ 133 | 100  |   *  |      | SPECHUMD | kg kg-1  | Specific humidity                        |  0  |  1  |  0  | 100 |
+ 151 | 102  |   0  |      | PMSL     | Pa       | Sea-level Pressure                       |  0  |  3  |  0  | 101 |
+ 134 |   1  |   0  |      | PSFC     | Pa       | Surface Pressure                         |  0  |  3  |  0  |  1  |
+ 235 |   1  |   0  |      | SKINTEMP | K        | Skin temperature                         |  0  |  0  | 17  |  1  |
+ 172 |   1  |   0  |      | LANDSEA  | 0/1 Flag | Land/Sea flag                            |  2  |  0  |  0  |  1  |
+  18 | 112  |   0  |   1  | ST000001 | K        | T of 0-1 m ground layer                  |  2  |  3  |  18 | 151 |
+  18 | 112  |   1  |   2  | ST000002 | K        | T of 1-2 m ground layer                  |  2  |  3  |  18 | 151 |
+  18 | 112  |   2  |   3  | ST000003 | K        | T of 2-3 m ground layer                  |  2  |  3  |  18 | 151 |
+  18 | 112  |   3  |   4  | ST000004 | K        | T of 3-4 m ground layer                  |  2  |  3  |  18 | 151 |
+  25 | 112  |   0  |   1  | SM000001 | m3 m-3   | Soil moisture of 0-1 m ground layer      |  2  |  0  |  25 | 151 |
+  25 | 112  |   1  |   2  | SM000002 | m3 m-3   | Soil moisture of 1-2 m ground layer      |  2  |  0  |  25 | 151 |
+  25 | 112  |   2  |   3  | SM000003 | m3 m-3   | Soil moisture of 2-3 m ground layer      |  2  |  0  |  25 | 151 |
+  25 | 112  |   3  |   4  | SM000004 | m3 m-3   | Soil moisture of 3-4 m ground layer      |  2  |  0  |  25 | 151 |
+-----+------+------+------+----------+----------+------------------------------------------+-----------------------+
